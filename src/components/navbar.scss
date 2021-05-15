@@ -1,0 +1,46 @@
+// $navsize:110px;
+// $navhth:100%;
+// $maxwdh:890px;
+
+nav{
+    height: 110px;
+    font-size: 2.4rem;
+    ul{
+        display: flex;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #5005ff; 
+        list-style: none;
+        padding: 0;
+        flex: 1;
+
+        li{
+            text-align: center;
+            /* height: 110px;
+            display: block; */
+            margin: auto;
+            
+            padding: 0;
+            width: 20%;
+            flex: 1;
+
+            &:hover{
+                background-color: rgb(255, 0, 200);
+                color: #2f00ff;
+            }
+
+            a{
+                margin: auto;
+                color: #ffffff;
+            }
+        }
+        
+    }
+    @media screen and (max-width: 890px){
+        width: 890px;
+        height: auto;
+        ul{
+            flex-direction: column;  
+        }
+    }
+}

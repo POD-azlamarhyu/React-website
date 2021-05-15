@@ -1,0 +1,13 @@
+.container{
+    min-height: 300px;
+    h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 65%;
+    }
+}
